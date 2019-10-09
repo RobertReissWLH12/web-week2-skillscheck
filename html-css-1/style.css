@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background-color: grey;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 50%;
+    margin-left: 50px;
+    color: white;
+}
+
+nav {
+    width: 50%;
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+li {
+    margin: 0 30px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(59, 46, 97);
+}
+
+.navList {
+    padding-top: 10px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.blackBox {
+    margin: 0;
+    height: 500px;
+    color: rgb(238, 238, 41);
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 0;
+}
+
+.middleBoxes {
+    height: 400px;
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.threeBoxes {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+.twoBoxes {
+    height: 300px;
+    width: 520px;
+    background-color: rgb(255, 184, 52)
+}
+
+.lowerBox {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filler {
+    height: 150px;
+    width: 400px;
+    font-size: 18px;
+}
+
+.elephant {
+    height: 200px;
+    width: 400px;
+}
